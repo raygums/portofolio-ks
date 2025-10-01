@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Rayhan Gumay - Portfolio</title>
+    <link rel="stylesheet" href="porto.css">
+</head>
+<body>
+    <div class="bg-animation"></div>
+    
+    <div class="particle" style="width: 4px; height: 4px; top: 20%; left: 10%; animation-delay: 0s;"></div>
+    <div class="particle" style="width: 6px; height: 6px; top: 60%; left: 80%; animation-delay: 2s;"></div>
+    <div class="particle" style="width: 3px; height: 3px; top: 80%; left: 30%; animation-delay: 4s;"></div>
+    <div class="particle" style="width: 5px; height: 5px; top: 40%; left: 60%; animation-delay: 6s;"></div>
+
+    <nav id="navbar">
+        <div class="logo">Portofolio MRG</div>
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#karakteristik">Karakteristik</a></li>
+            <li class="dropdown">
+                <a href="#">Analisis &#9662;</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#swot">SWOT</a></li>
+                    <li><a href="#porter">Porter Five Forces</a></li>
+                    <li><a href="#pendatar-dunia">Kekuatan Pendatar Dunia</a></li>
+                    <li><a href="#kompetensi-kurikulum">Kompetensi Kurikulum</a></li>
+                </ul>
+            </li>
+            <li><a href="#swebok">SWEBOK</a></li>
+            <li><a href="#project">Kerja Praktik</a></li>
+            <li><a href="#skripsi">Skripsi</a></li>
+            <button class="contact-btn" onclick="scrollToContact()">Contact Me</button>
+        </ul>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="subtitle">Halo, saya</p>
+                <h1>Muhammad Rayhan Gumay</h1>
+                <p class="tagline">Mahasiswa Teknik Informatika Semester 5</p>
+                <p class="description">
+                    Seorang Mahasiswa yang berfokus pada pengembangan perangkat lunak dengan spesialisasi dalam teknologi web modern. Memiliki passion dalam menciptakan solusi inovatif dan berkelanjutan untuk berbagai tantangan teknologi.
+                </p>
+                <div class="cta-buttons">
+                    <!-- <a href="#project" class="btn-primary">Lihat Project</a>
+                    <a href="#about" class="btn-secondary">Pelajari Lebih Lanjut</a> -->
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-img">
+                        <img src="Rayhan .jpg" alt="Foto Profil Rayhan Gumay">
+                    </div>
+                    <h3 style="text-align: center; margin-bottom: 15px;">Muhammad Rayhan Gumay</h3>
+                    <p style="text-align: center; color: var(--primary-color); margin-bottom: 25px;">@rayhangumay</p>
+                    <div style="display: flex; justify-content: space-around; text-align: center;">
+                        <!-- <div>
+                            <p style="font-size: 24px; font-weight: bold; color: var(--primary-color);">5+</p>
+                            <p style="font-size: 12px; color: var(--text-secondary);">Projects</p>
+                        </div>
+                        <div>
+                            <p style="font-size: 24px; font-weight: bold; color: var(--primary-color);">3+</p>
+                            <p style="font-size: 12px; color: var(--text-secondary);">Years</p>
+                        </div>
+                        <div>
+                            <p style="font-size: 24px; font-weight: bold; color: var(--primary-color);">10+</p>
+                            <p style="font-size: 12px; color: var(--text-secondary);">Skills</p>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="karakteristik" class="reveal">
+        <h2 class="section-title">Karakteristik Kapita Selekta</h2>
+        <p class="section-subtitle">Rekayasa Perangkat Lunak</p>
+        
+        <div class="cards-grid">
+            <div class="card">
+                <div class="card-icon">📊</div>
+                <h3>Metodologi Agile</h3>
+                <p>Menerapkan prinsip Agile dalam pengembangan software dengan fokus pada iterasi cepat, kolaborasi tim, dan adaptasi terhadap perubahan requirement.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🔧</div>
+                <h3>Clean Code</h3>
+                <p>Menulis kode yang mudah dibaca, dipahami, dan dimaintain dengan menerapkan best practices dan design patterns yang tepat.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🚀</div>
+                <h3>DevOps Culture</h3>
+                <p>Mengintegrasikan praktik development dan operations untuk meningkatkan kecepatan delivery dan kualitas software.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="swot" class="reveal">
+        <h2 class="section-title">Analisis SWOT</h2>
+        <p class="section-subtitle">Evaluasi Diri Profesional</p>
+        
+        <div class="swot-grid">
+            <div class="swot-card strength">
+                <h3>💪 Strengths (Kekuatan)</h3>
+                <ul>
+                    <li>Kemampuan problem solving yang kuat</li>
+                    <li>Adaptasi cepat dengan teknologi baru</li>
+                    <li>Komunikasi yang efektif dalam tim</li>
+                    <li>Passion dalam continuous learning</li>
+                    <li>Keahlian Teknis Relevan: Menguasai framework Laravel (PHP), database (MySQL), dan teknologi frontend (HTML, CSS, JavaScript) yang menjadi inti dari proyek ini.</li>
+                </ul>
+            </div>
+            <div class="swot-card weakness">
+                <h3>⚠️ Weaknesses (Kelemahan)</h3>
+                <ul>
+                    <li>Perfeksionis yang kadang memperlambat</li>
+                    <li>Perlu meningkatkan time management</li>
+                    <li>Kurang pengalaman di enterprise scale</li>
+                    <li>Masih developing leadership skills</li>
+                </ul>
+            </div>
+            <div class="swot-card opportunity">
+                <h3>🎯 Opportunities (Peluang)</h3>
+                <ul>
+                    <li>Pertumbuhan industri tech di Indonesia</li>
+                    <li>Demand tinggi untuk full-stack developer</li>
+                    <li>Peluang remote work global</li>
+                    <li>Emerging tech: AI, IoT, Blockchain</li>
+                    <li>Startup ecosystem yang berkembang</li>
+                </ul>
+            </div>
+            <div class="swot-card threat">
+                <h3>🚨 Threats (Ancaman)</h3>
+                <ul>
+                    <li>Kompetisi global yang ketat</li>
+                    <li>Teknologi yang cepat berubah</li>
+                    <li>AI yang menggantikan pekerjaan rutin</li>
+                    <li>Economic uncertainty</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="porter" class="reveal">
+        <h2 class="section-title">Analisis Porter Five Forces</h2>
+        <p class="section-subtitle">Posisi Kompetitif dalam Industri Software</p>
+        
+        <div class="porter-container">
+            <div class="porter-grid">
+                <div class="porter-item"><h4>Rivalry Among Existing Competitors (Persaingan dengan Solusi yang Ada)</h4><p>Aplikasi pertanian nasional seperti Mas Tani atau Pak Tani Digital, meskipun tidak spesifik untuk monitoring, bersaing untuk mendapatkan perhatian dan "waktu layar" dari petani.</p></div>
+                <div class="porter-item"><h4>Threat of New Entrants (Ancaman dari Pendatang Baru)</h4><p>Hambatan yang ada seperti membangun kepercayaan dan hubungan dengan komunitas petani di Lampung Barat. Tanpa ini, aplikasi tidak akan digunakan.</p></div>
+                <div class="porter-item"><h4>Threat of Substitutes (Ancaman dari Produk Pengganti)</h4><p>Ada grup WhatsApp yang dapat menjadi pengganti terkuat. Mudah digunakan untuk berbagi foto, jadwal, dan informasi panen secara instan tanpa perlu membuka website.</p></div>
+                <div class="porter-item"><h4>Bargaining Power of Buyers (Kekuatan Tawar Pengguna/Petani)</h4><p>Sangat Tinggi. Pengguna (petani) tidak membayar untuk menggunakan aplikasi ini. Jika website "Gawe Tani" sulit digunakan, lambat, atau tidak memberikan manfaat yang jelas, pengguna akan dengan sangat mudah meninggalkannya.</p></div>
+                <div class="porter-item"><h4>Bargaining Power of Suppliers (Kekuatan Tawar Pemasok)</h4><p>Pemasok Data (Petani, PPL, Kelompok Tani) Memiliki kekuatan sangat tinggi. Tanpa data akurat dan rutin dari mereka, seluruh fungsi inti website tidak akan berjalan. Keberhasilan proyek sangat bergantung pada kerja sama pemasok data.</p></div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="pendatar-dunia" class="reveal">
+        <h2 class="section-title">Kekuatan Pendatar Dunia</h2>
+        <p class="section-subtitle">Workflow Software (Perangkat Lunak Alur Kerja)</p>
+        <div style="max-width: 800px; margin: 0 auto;">
+            <div class="card">
+                <p style="text-align: left; line-height: 1.8; margin-bottom: 30px;">Topik ini sangat relevan untuk Kerja Praktik (KP) atau Skripsi karena industri teknologi modern sangat bergantung pada kolaborasi yang efisien dan proses pengembangan yang terstruktur. Pada saat ini juga perangkat lunak sangat banyak yang diperlukan terutama di provinsi Lampung.</p>
+                <h4 style="text-align: left; color: var(--primary-color); margin-bottom: 20px;">Elemen Utama dari Workflow Software:</h4>
+                <ul style="list-style: none; padding-left: 0; text-align: left; font-size: 15px;">
+                    <li style="display: flex; align-items: flex-start; margin-bottom: 15px;"><span style="color: var(--primary-color); font-weight: bold; min-width: 60px; padding-right: 10px;">Git</span><div><strong>Version Control Systems:</strong> Platform seperti Git, GitHub, atau GitLab yang memungkinkan tim untuk melacak setiap perubahan kode dan berkolaborasi tanpa tumpang tindih.</div></li>
+                    <li style="display: flex; align-items: flex-start; margin-bottom: 15px;"><span style="color: var(--primary-color); font-weight: bold; min-width: 60px; padding-right: 10px;">Trello</span><div><strong>Project Management Tools:</strong> Aplikasi seperti Trello, Jira, atau Asana yang digunakan untuk mengatur tugas, melacak kemajuan, dan memastikan proyek berjalan sesuai jadwal.</div></li>
+                    <li style="display: flex; align-items: flex-start; margin-bottom: 15px;"><span style="color: var(--primary-color); font-weight: bold; min-width: 60px; padding-right: 10px;">CI/CD</span><div><strong>Continuous Integration/Continuous Deployment (CI/CD):</strong> Alur kerja otomatis yang menggunakan alat seperti Jenkins atau GitHub Actions untuk membangun, menguji, dan merilis perangkat lunak secara efisien dan andal.</div></li>
+                    <li style="display: flex; align-items: flex-start;"><span style="color: var(--primary-color); font-weight: bold; min-width: 60px; padding-right: 10px;">Slack</span><div><strong>Communication Platforms:</strong> Alat komunikasi real-time seperti Slack atau Microsoft Teams yang menjadi pusat koordinasi dan diskusi tim.</div></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="kompetensi-kurikulum" class="reveal">
+        <h2 class="section-title">Kompetensi Kurikulum yang Dipilih</h2>
+        <p class="section-subtitle">Rekayasa Perangkat Lunak</p>
+        <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+            <div class="card">
+                <div class="card-icon" style="margin: 0 auto 20px;">🎓</div>
+                <p>Fokus yang diutamakan ada seperti perancangan, pembangunan, pengujian, dan pemeliharaan perangkat lunak dengan metode modern.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="swebok" class="reveal">
+        <h2 class="section-title">Area SWEBOK yang Dipilih</h2>
+        <p class="section-subtitle">Area Pengetahuan dari Software Engineering Body of Knowledge</p>
+        <div class="cards-grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+            <div class="card"><div class="card-icon">📋</div><h3>Software Requirements</h3><p>Fokus pada proses mengumpulkan, menganalisis, mendokumentasikan, dan mengelola kebutuhan pengguna serta sistem. Hal tersebut merupakan tahap pertama yang sangat penting dalam setiap proyek.</p></div>
+            <div class="card"><div class="card-icon">📐</div><h3>Software Design</h3><p>Mencakup prinsip, metode, dan praktik yang digunakan untuk merancang arsitektur perangkat lunak, komponen, antarmuka, dan struktur data. Tujuannya adalah menciptakan blueprint sistem sebelum pengkodean dimulai.</p></div>
+            <div class="card"><div class="card-icon">💻</div><h3>Software Construction</h3><p>Berfokus pada tahap pengkodean, pengujian unit, integrasi, dan debugging. Area ini menekankan pada praktik pengkodean yang efektif dan efisien untuk membangun perangkat lunak berkualitas.</p></div>
+            <div class="card"><div class="card-icon">🧪</div><h3>Software Testing</h3><p>Meliputi teknik dan strategi untuk menguji perangkat lunak, mulai dari pengujian unit, integrasi, sistem, hingga penerimaan pengguna, untuk memastikan kualitas dan fungsionalitasnya.</p></div>
+            <div class="card"><div class="card-icon">🛠️</div><h3>Software Maintenance</h3><p>Berurusan dengan kegiatan yang dilakukan setelah perangkat lunak dirilis, seperti perbaikan bug, adaptasi terhadap lingkungan baru, dan penambahan fitur baru untuk meningkatkan kualitas produk.</p></div>
+        </div>
+    </section>
+    
+    <section id="project" class="reveal">
+        <h2 class="section-title">Kerja Praktik</h2>
+        <p class="section-subtitle">Project Unggulan</p>
+        <div class="project-showcase">
+            <div class="project-header">
+                <h3 class="project-title">Sistem Informasi Monitoring Padi</h3>
+                <p style="color: var(--text-secondary); line-height: 1.8; max-width: 800px; margin: 0 auto;">Perancangan dan Pengembangan Sistem Informasi Monitoring Padi Menggunakan Framework Laravel untuk Monitoring Penanaman dan Pemanenan Padi di Lampung Barat. Sistem ini dirancang untuk meningkatkan efisiensi pengelolaan pertanian padi dengan fitur real-time monitoring, predictive analytics, dan reporting system yang komprehensif.</p>
+            </div>
+            <div class="project-tech"><span class="tech-badge">Laravel</span><span class="tech-badge">PHP</span><span class="tech-badge">MySQL</span><span class="tech-badge">JavaScript</span><span class="tech-badge">Bootstrap</span><span class="tech-badge">Chart.js</span><span class="tech-badge">REST API</span></div>
+        </div>
+    </section>
+
+    <section id="skripsi" class="reveal">
+        <h2 class="section-title">Skripsi</h2>
+        <p class="section-subtitle">Proyek Akhir</p>
+        <div class="project-showcase">
+            <div class="project-header">
+                <h3 class="project-title">Pengembangan Sistem Informasi Geografis (SIG) untuk Pemetaan dan Monitoring Produktivitas Padi di Lampung Barat Berbasis Web</h3>
+                <p style="color: var(--text-secondary); line-height: 1.8; max-width: 800px; margin: 0 auto;">Sistem ini dirancang sebagai pengembangan dari proyek kerja praktik, dengan menambahkan fungsionalitas pemetaan geografis (GIS) untuk memvisualisasikan data penanaman dan pemanenan. Tujuannya adalah memberikan analisis spasial yang lebih mendalam bagi para pemangku kepentingan di sektor pertanian untuk pengambilan keputusan yang lebih baik.</p>
+            </div>
+            <div class="project-tech"><span class="tech-badge">Laravel</span><span class="tech-badge">React.js</span><span class="tech-badge">MySQL</span><span class="tech-badge">Leaflet.js</span><span class="tech-badge">GIS</span><span class="tech-badge">REST API</span><span class="tech-badge">GeoJSON</span></div>
+        </div>
+    </section>
+
+    <section id="contact" class="reveal">
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-subtitle">Siap untuk berkolaborasi dalam project menarik</p>
+        <div style="max-width: 600px; margin: 0 auto;">
+            <div class="card" style="text-align: center; padding: 50px;">
+                <div class="card-icon" style="margin: 0 auto 30px; width: 80px; height: 80px; font-size: 36px;">✉️</div>
+                <h3 style="font-size: 28px; margin-bottom: 20px;">Get In Touch</h3>
+                <p style="margin-bottom: 30px; font-size: 16px;">Saya selalu terbuka untuk diskusi tentang project baru, ide kreatif, atau peluang untuk menjadi bagian dari visi Anda.</p>
+                <div style="display: flex; gap: 20px; justify-content: center; margin-bottom: 30px;">
+                    <a href="mailto:rayhangumay@email.com" class="btn-primary">Send Email</a>
+                    <!-- <a href="#" class="btn-secondary">Download CV</a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p style="color: var(--text-secondary); margin-bottom: 10px;">© 2025 Muhammad Rayhan Gumay. All rights reserved.</p>
+        <p style="color: var(--primary-color); font-size: 14px;">Built with passion and modern web technologies</p>
+    </footer>
+
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Smooth scrolling for navigation links (FIXED)
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href && href !== '#') {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                }
+            });
+        });
+
+        // Scroll to contact function
+        function scrollToContact() {
+            document.getElementById('contact').scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+
+        // Reveal animation on scroll
+        function reveal() {
+            const reveals = document.querySelectorAll('.reveal');
+            reveals.forEach(element => {
+                const windowHeight = window.innerHeight;
+                const elementTop = element.getBoundingClientRect().top;
+                const elementVisible = 150;
+                if (elementTop < windowHeight - elementVisible) {
+                    element.classList.add('active');
+                }
+            });
+        }
+        window.addEventListener('scroll', reveal);
+        reveal();
+    </script>
+</body>
+</html>
